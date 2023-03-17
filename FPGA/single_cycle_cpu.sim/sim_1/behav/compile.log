@@ -1,0 +1,36 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Operation_Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Operation_Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Control_Signals.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Signals
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/arithmetic/Shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Regifile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regifile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/arithmetic/Comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_Extender_32_Sign
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/arithmetic/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Hard_Wired_Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hard_Wired_Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Single_Cycle_RISCV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Single_Cycle_RISCV
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sim_1/new/Single_Cycle_RISCV_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Single_Cycle_RISCV_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Sep 13 20:00:03 2022
+# Process ID: 24788
+# Log file: D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.runs/impl_1/Single_Cycle_RISCV.vdi
+# Journal file: D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Single_Cycle_RISCV.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 100 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1

@@ -1,0 +1,67 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Sep 16 11:06:47 2022
+| Host         : LAPTOP-HRFUTF16 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file cpu_control_sets_placed.rpt
+| Design       : cpu
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    14 |
+| Minimum Number of register sites lost to control set restrictions |    19 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              65 |           46 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              93 |           24 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             103 |           39 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------+-----------------------------------------------------------+----------------------------------------------+------------------+----------------+
+|                 Clock Signal                |                       Enable Signal                       |               Set/Reset Signal               | Slice Load Count | Bel Load Count |
++---------------------------------------------+-----------------------------------------------------------+----------------------------------------------+------------------+----------------+
+|  Single_Cycle_RISCV/FPGADigit/u_divider/clk |                                                           |                                              |                2 |              3 |
+|  Clk_IBUF_BUFG                              | Single_Cycle_RISCV/Display_Sel_Reg/s_state_reg[4]_i_1_n_2 | RST_IBUF                                     |                2 |              5 |
+|  Clk_IBUF_BUFG                              |                                                           |                                              |                4 |              6 |
+|  Clk_IBUF_BUFG                              |                                                           | Single_Cycle_RISCV/FPGADigit/u_divider/clk_N |                8 |             31 |
+|  Clk_IBUF_BUFG                              |                                                           | Single_Cycle_RISCV/divider1/clk_N            |                8 |             31 |
+|  Clk_IBUF_BUFG                              |                                                           | Single_Cycle_RISCV/divider2/clk_N            |                8 |             31 |
+|  n_0_2015_BUFG                              | Single_Cycle_RISCV/PC_Reg/E[0]                            | RST_IBUF                                     |               19 |             32 |
+|  n_1_1312_BUFG                              |                                                           |                                              |               40 |             56 |
+|  n_0_2015_BUFG                              | Single_Cycle_RISCV/PC_Reg/sel                             | RST_IBUF                                     |               18 |             66 |
+|  n_0_2015_BUFG                              | Single_Cycle_RISCV/PC_Reg/p_0_in                          |                                              |               12 |             96 |
+|  n_0_2015_BUFG                              | Single_Cycle_RISCV/ALU/Result0_3                          |                                              |               32 |            128 |
+|  n_0_2015_BUFG                              | Single_Cycle_RISCV/ALU/Result0_2                          |                                              |               32 |            128 |
+|  n_0_2015_BUFG                              | Single_Cycle_RISCV/ALU/Result0_1                          |                                              |               32 |            128 |
+|  n_0_2015_BUFG                              | Single_Cycle_RISCV/ALU/Result0_0                          |                                              |               32 |            128 |
++---------------------------------------------+-----------------------------------------------------------+----------------------------------------------+------------------+----------------+
+
+

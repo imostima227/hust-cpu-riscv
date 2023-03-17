@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Sep 15 17:51:39 2022
+# Process ID: 14788
+# Log file: D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/webtalk.log
+# Journal file: D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu\webtalk.jou
+#-----------------------------------------------------------
+source D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 317191876 -regid "" -xml D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_..."
+    (file "D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.hw/webtalk/labtool_webtalk.tcl" line 28)
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep 15 17:51:40 2022...

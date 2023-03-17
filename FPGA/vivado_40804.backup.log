@@ -1,0 +1,178 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Sep 26 20:43:15 2022
+# Process ID: 32536
+# Log file: D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/vivado.log
+# Journal file: D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/software/Vivado/Vivado/2015.2/data/ip'.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: cpu
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:30 ; elapsed = 00:03:36 . Memory (MB): peak = 907.070 ; gain = 734.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cpu' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/top/cpu.v:2]
+INFO: [Synth 8-638] synthesizing module 'Single_Cycle_RISCV' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Single_Cycle_RISCV.v:2]
+INFO: [Synth 8-638] synthesizing module 'divider_pc' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/divider_pc.v:1]
+	Parameter N bound to: 1001000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'divider_pc' (1#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/divider_pc.v:1]
+INFO: [Synth 8-638] synthesizing module 'divider_pc__parameterized0' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/divider_pc.v:1]
+	Parameter N bound to: 10001000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'divider_pc__parameterized0' (1#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/divider_pc.v:1]
+INFO: [Synth 8-638] synthesizing module 'Counter_pc' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/Counter_pc.v:2]
+INFO: [Synth 8-256] done synthesizing module 'Counter_pc' (2#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/Counter_pc.v:2]
+INFO: [Synth 8-638] synthesizing module 'Multiplexer_2' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Multiplexer_2' (3#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+INFO: [Synth 8-638] synthesizing module 'Multiplexer_2__parameterized0' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+	Parameter DATA_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Multiplexer_2__parameterized0' (3#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+INFO: [Synth 8-638] synthesizing module 'Multiplexer_2__parameterized1' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+	Parameter DATA_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Multiplexer_2__parameterized1' (3#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+INFO: [Synth 8-638] synthesizing module 'Multiplexer_2__parameterized2' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Multiplexer_2__parameterized2' (3#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+INFO: [Synth 8-638] synthesizing module 'Multiplexer_2__parameterized3' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Multiplexer_2__parameterized3' (3#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+INFO: [Synth 8-638] synthesizing module 'Multiplexer_2__parameterized4' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Multiplexer_2__parameterized4' (3#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_2.v:2]
+INFO: [Synth 8-638] synthesizing module 'Multiplexer_4' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_4.v:2]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Multiplexer_4' (4#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_4.v:2]
+INFO: [Synth 8-638] synthesizing module 'Multiplexer_8' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_8.v:2]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Multiplexer_8' (5#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/plexers/Multiplexer_8.v:2]
+INFO: [Synth 8-638] synthesizing module 'Bit_Extender_32_Sign' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Bit_Extender_32_Sign' (6#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+INFO: [Synth 8-638] synthesizing module 'Bit_Extender_32_Sign__parameterized0' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+	Parameter DATA_WIDTH bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Bit_Extender_32_Sign__parameterized0' (6#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+INFO: [Synth 8-638] synthesizing module 'Bit_Extender_32_Sign__parameterized1' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+	Parameter DATA_WIDTH bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Bit_Extender_32_Sign__parameterized1' (6#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+INFO: [Synth 8-638] synthesizing module 'Bit_Extender_32_Sign__parameterized2' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Bit_Extender_32_Sign__parameterized2' (6#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+INFO: [Synth 8-638] synthesizing module 'Bit_Extender_32_Sign__parameterized3' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Bit_Extender_32_Sign__parameterized3' (6#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+INFO: [Synth 8-638] synthesizing module 'Bit_Extender_32_Sign__parameterized4' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Bit_Extender_32_Sign__parameterized4' (6#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+INFO: [Synth 8-638] synthesizing module 'Bit_Extender_32_Sign__parameterized5' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Bit_Extender_32_Sign__parameterized5' (6#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/wiring/Bit_Extender_32_Sign.v:2]
+INFO: [Synth 8-638] synthesizing module 'Shifter' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/arithmetic/Shifter.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter WIDTH_SHIFT bound to: 5 - type: integer 
+	Parameter ShifterMode bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Shifter' (7#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/arithmetic/Shifter.v:3]
+INFO: [Synth 8-638] synthesizing module 'Adder' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/arithmetic/Adder.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Adder' (8#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/arithmetic/Adder.v:3]
+INFO: [Synth 8-638] synthesizing module 'Comparator' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/arithmetic/Comparator.v:2]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter TwosComplement bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Comparator' (9#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/arithmetic/Comparator.v:2]
+INFO: [Synth 8-638] synthesizing module 'Register' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Register.v:2]
+	Parameter ActiveLevel bound to: 1 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Register' (10#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Register.v:2]
+INFO: [Synth 8-638] synthesizing module 'Register__parameterized0' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Register.v:2]
+	Parameter ActiveLevel bound to: 1 - type: integer 
+	Parameter DATA_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Register__parameterized0' (10#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Register.v:2]
+INFO: [Synth 8-638] synthesizing module 'Rom' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Rom.v:2]
+INFO: [Synth 8-3876] $readmem data file 'D:\pro\principles_of_computer_composition\cpu24-riscv\Single_Cycle_RISCV2\single_cycle_cpu\single_cycle_cpu.srcs\sources_1\imports\verilog\memory\ccab.txt' is read successfully [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Rom.v:14]
+INFO: [Synth 8-256] done synthesizing module 'Rom' (11#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Rom.v:2]
+INFO: [Synth 8-638] synthesizing module 'Hard_Wired_Controller' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Hard_Wired_Controller.v:2]
+INFO: [Synth 8-638] synthesizing module 'Operation_Control_Unit' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Operation_Control_Unit.v:2]
+INFO: [Synth 8-256] done synthesizing module 'Operation_Control_Unit' (12#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Operation_Control_Unit.v:2]
+INFO: [Synth 8-638] synthesizing module 'Control_Signals' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Control_Signals.v:2]
+INFO: [Synth 8-256] done synthesizing module 'Control_Signals' (13#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Control_Signals.v:2]
+INFO: [Synth 8-256] done synthesizing module 'Hard_Wired_Controller' (14#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Hard_Wired_Controller.v:2]
+INFO: [Synth 8-638] synthesizing module 'Regifile' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Regifile.v:2]
+INFO: [Synth 8-3876] $readmem data file 'D:\pro\principles_of_computer_composition\cpu24-riscv\Single_Cycle_RISCV2\single_cycle_cpu\single_cycle_cpu.srcs\sources_1\imports\verilog\memory\initial.txt' is read successfully [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Regifile.v:26]
+INFO: [Synth 8-256] done synthesizing module 'Regifile' (15#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Regifile.v:2]
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/ALU.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/ALU.v:28]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (16#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/ALU.v:2]
+INFO: [Synth 8-638] synthesizing module 'Ram' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Ram.v:2]
+INFO: [Synth 8-3876] $readmem data file 'D:\pro\principles_of_computer_composition\cpu24-riscv\Single_Cycle_RISCV2\single_cycle_cpu\single_cycle_cpu.srcs\sources_1\imports\verilog\memory\initial.txt' is read successfully [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Ram.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Ram' (17#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/memory/Ram.v:2]
+INFO: [Synth 8-638] synthesizing module 'FPGADigit' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/FPGADigit.v:9]
+INFO: [Synth 8-638] synthesizing module 'divider' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/divider.v:2]
+	Parameter N bound to: 5000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'divider' (18#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/divider.v:2]
+INFO: [Synth 8-638] synthesizing module 'Counter' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/Counter.v:2]
+INFO: [Synth 8-256] done synthesizing module 'Counter' (19#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/Counter.v:2]
+INFO: [Synth 8-638] synthesizing module 'decoder3_8' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/decoder3_8.v:2]
+INFO: [Synth 8-226] default block is never used [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/decoder3_8.v:6]
+INFO: [Synth 8-256] done synthesizing module 'decoder3_8' (20#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/decoder3_8.v:2]
+INFO: [Synth 8-638] synthesizing module 'display_sel' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/display_sel.v:2]
+INFO: [Synth 8-226] default block is never used [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/display_sel.v:7]
+INFO: [Synth 8-256] done synthesizing module 'display_sel' (21#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/display_sel.v:2]
+INFO: [Synth 8-638] synthesizing module 'sevenseg_dec' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/sevenseg_dec.v:2]
+INFO: [Synth 8-226] default block is never used [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/sevenseg_dec.v:7]
+INFO: [Synth 8-256] done synthesizing module 'sevenseg_dec' (22#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/sevenseg_dec.v:2]
+INFO: [Synth 8-256] done synthesizing module 'FPGADigit' (23#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/io/FPGADigit.v:9]
+INFO: [Synth 8-256] done synthesizing module 'Single_Cycle_RISCV' (24#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/circuit/Single_Cycle_RISCV.v:2]
+WARNING: [Synth 8-689] width (1) of port connection 'IR' does not match port width (32) of module 'Single_Cycle_RISCV' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/top/cpu.v:38]
+WARNING: [Synth 8-689] width (1) of port connection 'LedData' does not match port width (32) of module 'Single_Cycle_RISCV' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/top/cpu.v:38]
+WARNING: [Synth 8-689] width (1) of port connection 'MDin' does not match port width (32) of module 'Single_Cycle_RISCV' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/top/cpu.v:38]
+WARNING: [Synth 8-689] width (1) of port connection 'PC' does not match port width (32) of module 'Single_Cycle_RISCV' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/top/cpu.v:38]
+WARNING: [Synth 8-689] width (1) of port connection 'RDin' does not match port width (32) of module 'Single_Cycle_RISCV' [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/top/cpu.v:38]
+INFO: [Synth 8-256] done synthesizing module 'cpu' (25#1) [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/top/cpu.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:30 ; elapsed = 00:03:37 . Memory (MB): peak = 907.070 ; gain = 734.082
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:30 ; elapsed = 00:03:37 . Memory (MB): peak = 907.070 ; gain = 734.082
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/constrs_1/imports/constr/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/constrs_1/imports/constr/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-141] Inserted 16 OBUFs to IO ports without IO buffers.
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:41 ; elapsed = 00:03:44 . Memory (MB): peak = 1260.520 ; gain = 1087.531
+87 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1260.520 ; gain = 353.449
+write_schematic -format pdf -orientation portrait D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/schematic.png.pdf
+D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/schematic.png.pdf
+write_schematic -format pdf -orientation portrait D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/schematic2.pdf
+D:/pro/principles_of_computer_composition/cpu24-riscv/Single_Cycle_RISCV2/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/imports/verilog/schematic2.pdf
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 26 21:42:12 2022...
